@@ -1,0 +1,20 @@
+{% load i18n %}
+
+{% block content %}
+{% autoescape off %}
+{% blocktrans %}
+
+In order to fully activate your ChainStaff account, please verify your email address by clicking the following link:
+
+{% endblocktrans %}
+
+{{ activate_url }}
+
+{% blocktrans %}
+Or copy and paste the following into your browser: {{ activate_url }}
+{% endblocktrans %}
+
+If you are having any issues with your account, please email us directly at hello@chainstaff.io
+
+{% endautoescape %}
+{% endblock %}

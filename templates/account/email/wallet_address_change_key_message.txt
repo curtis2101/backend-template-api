@@ -1,0 +1,15 @@
+{% load i18n %}
+
+{% block content %}{% autoescape off %}{% blocktrans %}
+Hello from Legacy!
+
+You're receiving this e-mail because you have requested a wallet address change for your user account.
+It can be safely ignored if you did not request a wallet address change.{% endblocktrans %}
+
+Here is your code for changing your wallet address:
+
+{{ code }}
+
+Thank you for using Legacy App!
+
+{% endautoescape %}{% endblock %}

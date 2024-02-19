@@ -1,0 +1,2 @@
+{% load i18n %}
+{% blocktrans %}Wallet Address Change E-mail{% endblocktrans %}

@@ -1,0 +1,7 @@
+{% load i18n %}{% autoescape off %}{% blocktrans %}Time to refill the wallet for LN rewards{% endblocktrans %}
+
+{% block content %}{% endblock %}
+
+{% blocktrans %}Thank you Joao
+{% endblocktrans %}
+{% endautoescape %}
